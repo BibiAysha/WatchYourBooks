@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.watchyourbooks.SciFiList">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+    <TableRow
+        android:background="#CFD8DC">
+        <TextView
+
+            android:text="Book"
+            android:padding="3dip"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:text="Author"
+            android:gravity="right"
+            android:padding="3dip"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_column="1"
+            android:text="Genre"
+            android:padding="3dip"
+            android:textStyle="bold"/>
+        <TextView
+            android:text="PDF"
+            android:textStyle="bold"
+            android:padding="3dip"/>
+        <TextView
+            android:text="Audio"
+            android:textStyle="bold"
+            android:padding="3dip"/>
+        <TextView
+            android:text="Trailer"
+            android:textStyle="bold"
+            android:padding="3dip"/>
+    </TableRow>
+
+        <TableRow>
+            <TextView
+
+                android:text="Cinder"
+                android:padding="3dip"
+
+                />
+            <TextView
+                android:text="Marissa Meyer"
+                android:gravity="right"
+                android:padding="3dip"
+                />
+            <TextView
+                android:layout_column="1"
+                android:text="Sci-fi"
+                android:padding="3dip"
+                />
+            <TextView
+                android:text="Read Book"
+                android:padding="3dip"
+                android:onClick="OpenBrowser28"
+
+                />
+            <TextView
+                android:text="Listen to Audio"
+                android:padding="3dip"
+                android:onClick="OpenBrowser28"
+                />
+            <TextView
+                android:text="Watch trailer"
+                android:padding="3dip"
+                android:onClick="OpenBrowser28"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+
+                android:text="Dune"
+                android:padding="3dip"
+
+                />
+            <TextView
+                android:text="Frank Herbert"
+                android:gravity="right"
+                android:padding="3dip"
+                />
+            <TextView
+                android:layout_column="1"
+                android:text="Sci-fi"
+                android:padding="3dip"
+                />
+            <TextView
+                android:text="Read Book"
+                android:padding="3dip"
+                android:onClick="OpenBrowser31"
+                />
+            <TextView
+                android:text="Listen to Audio"
+                android:padding="3dip"
+                android:onClick="OpenBrowser31"
+                />
+            <TextView
+                android:text="Watch trailer"
+                android:padding="3dip"
+                android:onClick="OpenBrowser31"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+
+                android:text="Shatter me"
+                android:padding="3dip"
+
+                />
+            <TextView
+                android:text="Tahereh Mafit"
+                android:gravity="right"
+                android:padding="3dip"
+                />
+            <TextView
+                android:layout_column="1"
+                android:text="Sci-fi"
+                android:padding="3dip"
+                />
+            <TextView
+                android:text="Read Book"
+                android:padding="3dip"
+                android:onClick="OpenBrowser34"
+                />
+            <TextView
+                android:text="Listen to Audio"
+                android:padding="3dip"
+                android:onClick="OpenBrowser34"
+                />
+            <TextView
+                android:text="Watch Trailer"
+                android:padding="3dip"
+                android:onClick="OpenBrowser34"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+
+                android:text="Saga"
+                android:padding="3dip"
+
+                />
+            <TextView
+                android:text="Brian K. Vaughan"
+                android:gravity="right"
+                android:padding="3dip"
+                />
+            <TextView
+                android:layout_column="1"
+                android:text="Sci-fi"
+                android:padding="3dip"
+                />
+            <TextView
+                android:text="Read book"
+                android:padding="3dip"
+                android:onClick="OpenBrowser37"
+                />
+            <TextView
+                android:text="Listen to audio"
+                android:padding="3dip"
+                android:onClick="OpenBrowser37"
+                />
+            <TextView
+                android:text="Watch trailer"
+                android:padding="3dip"
+                android:onClick="OpenBrowser37"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+
+                android:text="Insurgent"
+                android:padding="3dip"
+
+                />
+            <TextView
+                android:text="Veronica Roth"
+                android:gravity="right"
+                android:padding="3dip"
+                />
+            <TextView
+                android:layout_column="1"
+                android:text="Sci-fi"
+                android:padding="3dip"
+                />
+            <TextView
+                android:text="Read book"
+                android:padding="3dip"
+                android:onClick="OpenBrowser40"
+                />
+            <TextView
+                android:text="Listen to Audio"
+                android:padding="3dip"
+                android:onClick="OpenBrowser40"
+                />
+            <TextView
+                android:text="Watch Trailer"
+                android:padding="3dip"
+                android:onClick="OpenBrowser40"
+                />
+        </TableRow>
+    </TableLayout>
+    </HorizontalScrollView>
+    </ScrollView>
+</RelativeLayout>

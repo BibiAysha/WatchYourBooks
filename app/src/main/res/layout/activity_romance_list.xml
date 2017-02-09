@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.watchyourbooks.RomanceList">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+    <TableRow
+        android:background="#CFD8DC">
+        <TextView
+
+            android:text="Book"
+            android:padding="3dip"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:text="Author"
+            android:gravity="right"
+            android:padding="3dip"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_column="1"
+            android:text="Genre"
+            android:padding="3dip"
+            android:textStyle="bold"/>
+        <TextView
+            android:text="PDF"
+            android:textStyle="bold"
+            android:padding="3dip"/>
+        <TextView
+            android:text="Audio"
+            android:textStyle="bold"
+            android:padding="3dip"/>
+        <TextView
+            android:text="Trailer"
+            android:textStyle="bold"
+            android:padding="3dip"/>
+    </TableRow>
+
+
+        <TableRow>
+            <TextView
+
+                android:text="The Fault in our stars"
+                android:padding="3dip"
+
+                />
+            <TextView
+                android:text="John Green"
+                android:gravity="right"
+                android:padding="3dip"
+                />
+            <TextView
+                android:layout_column="1"
+                android:text="Romance"
+                android:padding="3dip"
+                />
+            <TextView
+                android:text="http://181.143.243.20/areas/ingles/talleres/The%20Fault%20In%20Our%20Stars.pdf"
+                android:padding="3dip"
+                />
+            <TextView
+                android:text="https://www.youtube.com/watch?v=W0zljY9Tm78"
+                android:padding="3dip"
+                />
+            <TextView
+                android:text="https://www.youtube.com/watch?v=9ItBvH5J6ss"
+                android:padding="3dip"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+
+                android:text="Twilight"
+                android:padding="3dip"
+
+                />
+            <TextView
+                android:text="Stephenie Meyer"
+                android:gravity="right"
+                android:padding="3dip"
+                />
+            <TextView
+                android:layout_column="1"
+                android:text="Romance"
+                android:padding="3dip"
+                />
+            <TextView
+                android:text="https://yippiie.files.wordpress.com/2011/06/1-stephenie-meyer-twilight.pdf"
+                android:padding="3dip"
+                />
+            <TextView
+                android:text="https://www.youtube.com/watch?v=euHGXlYrLNk"
+                android:padding="3dip"
+                />
+            <TextView
+                android:text="https://www.youtube.com/watch?v=fFLrRlPBg0A"
+                android:padding="3dip"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+
+                android:text="Romeo and Juliet"
+                android:padding="3dip"
+
+                />
+            <TextView
+                android:text="William Shakespeare"
+
+                android:padding="3dip"
+                />
+            <TextView
+                android:layout_column="1"
+                android:text="Romance"
+                android:padding="3dip"
+                />
+            <TextView
+                android:text="http://learningstorm.org/wp-content/uploads/2016/02/RMEOJLET-1.pdf"
+                android:padding="3dip"
+                />
+            <TextView
+                android:text="https://www.youtube.com/watch?v=s2SSnOS47Twlist=PLEC31EA4F4858DC8F"
+                android:padding="3dip"
+                />
+            <TextView
+                android:text="https://www.youtube.com/watch?v=jTGWNHa1wIQ"
+                android:padding="3dip"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+
+                android:text="Breaking Dawn"
+                android:padding="3dip"
+
+                />
+            <TextView
+                android:text="Stephenie Meyer"
+                android:gravity="right"
+                android:padding="3dip"
+                />
+            <TextView
+                android:layout_column="1"
+                android:text="Romance"
+                android:padding="3dip"
+                />
+            <TextView
+                android:text="http://www.kkoworld.com/kitablar/Stefani_Mayer_Subh-eng.pdf"
+                android:padding="3dip"
+                />
+            <TextView
+                android:text="https://www.youtube.com/watch?v=IkVaMYoRwaQ"
+                android:padding="3dip"
+                />
+            <TextView
+                android:text="https://www.youtube.com/watch?v=gmKzwqQTqPw"
+                android:padding="3dip"
+                />
+        </TableRow>
+
+    </TableLayout>
+    </HorizontalScrollView>
+    </ScrollView>
+
+</RelativeLayout>
